@@ -1,0 +1,32 @@
+.add-form {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-form h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+}
+
+.add-form input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+
+}
+
+.add-form button {
+    width: 250px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
